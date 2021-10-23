@@ -12,7 +12,7 @@ using System.Diagnostics;
 // ✗ Online song detection.
 // ✗ Offline song length detection.
 // ✗ Online song length detection & cache.
-// ✗ Advertisement length detection, usually 5,8,10 seconds.
+// ✗ Advertisement length detection, usually 0,5,8,10 seconds.
 
 
 // Window titles and their usual meanings:
