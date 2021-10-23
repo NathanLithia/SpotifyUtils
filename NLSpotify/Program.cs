@@ -8,11 +8,11 @@ using System.Diagnostics;
 // ✗ Settings file.
 // ✗ Volume control Spotify process on events.
 // ✗ Send keys to Spotify on events.
-// ✓ Offline song Detection.
+// ✓ Offline song detection.
 // ✗ Online song detection.
 // ✗ Offline song length detection.
 // ✗ Online song length detection & cache.
-// ✗ Advertisement length detection.
+// ✗ Advertisement length detection, usually 5,8,10 seconds.
 
 
 // Window titles and their usual meanings:
