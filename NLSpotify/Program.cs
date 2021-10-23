@@ -1,6 +1,19 @@
 ﻿using System;
 using System.Diagnostics;
 
+// Todo
+//
+// ✓ Detect and ID Spotify process.
+// ✗ Settings file.
+// ✗ Volume control Spotify process on events.
+// ✗ Send keys to Spotify on events.
+// ✓ Offline song Detection.
+// ✗ Online song detection.
+// ✗ Offline song length detection.
+// ✗ Online song length detection & cache.
+// ✗ Advertisement length detection.
+//
+
 namespace NLSpotify
 {
     public class Spotify
