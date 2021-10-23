@@ -1,0 +1,6 @@
+# Ignore
+*.suo
+\bin
+\obj
+ComplementaryShaders_v4.1_dev4.zip
+# Allow
