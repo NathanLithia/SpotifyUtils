@@ -26,10 +26,9 @@ namespace NLSpotify
 {
     public class Spotify
     {
-        public string GetPlaying(int PID) 
+        public string GetPlaying(int PID) //Get the Window Title and convert it into a useable status.
         {
             Process Application = Process.GetProcessById(PID);
-
             if (Application.MainWindowTitle == "Advertisement") 
             {
                 return "Advertisement";
@@ -43,7 +42,7 @@ namespace NLSpotify
                 return Application.MainWindowTitle;
             }
         }
-        public int GetPID()
+        public int GetPID() //Find the Process ID of the running Windowed Spotify Process.
         {
             Process[] processlist = Process.GetProcesses();
             foreach (Process process in processlist)
