@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 
-// Todo
+
+// Todo:
 //
 // ✓ Detect and ID Spotify process.
 // ✗ Settings file.
@@ -12,7 +13,14 @@ using System.Diagnostics;
 // ✗ Offline song length detection.
 // ✗ Online song length detection & cache.
 // ✗ Advertisement length detection.
+
+
+// Window titles and their usual meanings:
 //
+// Advertisement -> Most likely an Advertisement.
+// Spotify       -> Sometimes an Advertisement.
+// Spotify Free  -> Usually the window title when the client is on pause.
+
 
 namespace NLSpotify
 {
@@ -21,9 +29,7 @@ namespace NLSpotify
         public string GetPlaying(int PID) 
         {
             Process Application = Process.GetProcessById(PID);
-            // Advertisement -> Ad
-            // Spotify       -> Ad
-            // Spotify Free  -> 
+
             if (Application.MainWindowTitle == "Advertisement") 
             {
                 return "Advertisement";
